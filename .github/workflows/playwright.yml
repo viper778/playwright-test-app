@@ -16,9 +16,9 @@ jobs:
     - name: Install CI dependencies
       run: npm ci
     - name: Setup Date field
-      run: echo "NOW=$(date +'%Y-%m-%dT%H-%M-%S')" >> $GITHUB_ENV
+      run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
     - name: Echo current date
-      run: echo $NOW # Gives "2022-12-11T01-42-20"
+      run: echo $NOW # Gives "2022-12-11T01:42:20"
     - name: Install Playwright Browsers 3
       run: npx playwright install --with-deps
     - name: Run Playwright all tests inside test DIR
