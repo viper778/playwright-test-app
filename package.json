@@ -1,0 +1,23 @@
+{
+  "name": "playwright-test-app",
+  "version": "1.0.0",
+  "description": "A test app for Github actions CICD testing.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viper778/playwright-test-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/viper778/playwright-test-app/issues"
+  },
+  "homepage": "https://github.com/viper778/playwright-test-app#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  }
+}
